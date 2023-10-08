@@ -1,0 +1,23 @@
+
+// structure 
+// https://sass-guidelin.es/
+
+// base
+@import url("./base/_reset.scss");
+
+// abstracts
+@import url("./abstracts/_mixins.scss");
+@import url("./abstracts/_functions.scss");
+@import url("./abstracts/_variables.scss");
+@import url("./abstracts/_placeholders.scss");
+
+// layout
+@import url("./layout/_defaultLayout.scss");
+@import url("./layout/_header.scss");
+@import url("./layout/_footer.scss");
+
+// pages
+@import url("./pages/_home.scss");
+
+// components
+@import url("./components/_buttons.scss");

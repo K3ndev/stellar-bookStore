@@ -1,0 +1,15 @@
+#root {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 1 0%;
+}
+
+/* CSS debugger */
+// * {
+//     box-sizing: border-box;
+//     outline: 1px solid limegreen !important;
+// }
