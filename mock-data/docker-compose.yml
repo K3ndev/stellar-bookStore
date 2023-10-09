@@ -1,0 +1,15 @@
+version: '3.1'
+
+services:
+
+  mongo:
+    image: mongo
+    container_name: bookStore-db
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${DB_USER}
+      MONGO_INITDB_ROOT_PASSWORD: ${DB_PASSWORD}
+    ports: 
+      - ${DB_PORT}:27017
+    volumes:
+      - ./docker-data/db2:/var/lib/postgresql/data
